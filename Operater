@@ -1,0 +1,23 @@
+//pawar Nikita
+using system;
+namespace ConsoleApplication
+{
+    class program
+    {
+  static void Main(string[]args) 
+  {
+            bool a = true;
+            bool b = false;
+            bool c;
+           c = a && b ;
+    Console.WriteLine("AND operator returns: "+ c);
+           c = a || b;
+    
+        Console.WriteLine(" OR operator returns" + c);
+        c = !a; 
+        Console.WriteLine("nor operator returns" + c);
+        Console.ReadLine();
+        }
+       }
+    }
+  }
